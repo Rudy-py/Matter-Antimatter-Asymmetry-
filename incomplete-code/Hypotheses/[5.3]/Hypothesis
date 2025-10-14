@@ -1,1 +1,12 @@
+Identify single charge, i.e. only +ive or -ive charge.
+if Prob Pion < Value 1 delete whole set, otherwise continue
 
+Left with 2 identically charged particles.
+Probabilty of Kaon vs Pion for both
+if prob kaon for both particles > Value 2 delete whole set, otherwise continue
+if prob pion for both particles > Value 2 delete whole set, otherwise continue
+
+If particle 1 Prob K or Prob Pi > Value 3 keep
+If particle 2 Prob K or Prob Pi > Value 3 keep
+
+Result: Filtered to Kpipi decay with accuracy perameter.
