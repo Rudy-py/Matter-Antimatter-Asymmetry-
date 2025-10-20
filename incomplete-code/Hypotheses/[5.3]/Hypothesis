@@ -1,4 +1,4 @@
-Identify single charge, i.e. only +ive or -ive charge the opposite charge to B meson.
+Identify single charge, i.e. only +ive or -ive charge the opposite charge to B meson. #We know charge one is opposite to charges 2 or 3, so we can just check for pions
 if Prob Pion < Value 1 delete whole set, otherwise continue
 Lone particle is pion
 #if prob muon > value 2 delete whole set, otherwise continue
